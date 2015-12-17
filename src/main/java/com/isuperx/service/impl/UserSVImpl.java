@@ -9,7 +9,7 @@ import com.isuperx.dao.interfaces.IUserDAO;
 import com.isuperx.domain.User;
 import com.isuperx.service.interfaces.IUserSV;
 
-@Service
+@Service("userSV")
 public class UserSVImpl implements IUserSV {
 
 	@Autowired

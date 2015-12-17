@@ -15,7 +15,7 @@
 			<property name="jdbcUrl" value="${jdbc.url}" />
 			<property name="user" value="${jdbc.username}" />
 			<property name="password" value="${jdbc.password}" />
-			<property name="minPoolSize" value="${jdbc.miniPoolSize}" />
+			<property name="minPoolSize" value="${jdbc.minPoolSize}" />
 			<property name="maxPoolSize" value="${jdbc.maxPoolSize}" />
 			<property name="initialPoolSize" value="${jdbc.initialPoolSize}" />
 			<property name="maxIdleTime" value="${jdbc.maxIdleTime}" />
