@@ -2,7 +2,7 @@ package com.isuperx.dao.interfaces;
 
 import java.util.List;
 
-import com.isuperx.domain.User;
+import com.isuperx.common.domain.User;
 
 public interface IUserDAO {
 	public long saveUser(User user);

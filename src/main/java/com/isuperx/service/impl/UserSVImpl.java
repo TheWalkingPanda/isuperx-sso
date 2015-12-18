@@ -5,8 +5,8 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.isuperx.common.domain.User;
 import com.isuperx.dao.interfaces.IUserDAO;
-import com.isuperx.domain.User;
 import com.isuperx.service.interfaces.IUserSV;
 
 @Service("userSV")

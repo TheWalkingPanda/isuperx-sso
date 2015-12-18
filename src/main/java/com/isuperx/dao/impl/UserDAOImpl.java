@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.orm.ibatis.SqlMapClientTemplate;
 import org.springframework.stereotype.Repository;
 
+import com.isuperx.common.domain.User;
 import com.isuperx.dao.interfaces.IUserDAO;
-import com.isuperx.domain.User;
 
 @Repository
 public class UserDAOImpl implements IUserDAO {

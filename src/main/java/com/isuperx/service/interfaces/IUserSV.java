@@ -2,7 +2,7 @@ package com.isuperx.service.interfaces;
 
 import java.util.List;
 
-import com.isuperx.domain.User;
+import com.isuperx.common.domain.User;
 
 public interface IUserSV {
 	public long saveUser(User user);
