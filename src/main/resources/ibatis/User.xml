@@ -4,7 +4,7 @@
 	"http://ibatis.apache.org/dtd/sql-map-2.dtd">
 <sqlMap>
 	<typeAlias alias="User" type="com.isuperx.common.domain.User"/>
-	
+ 	
 	<resultMap class="User" id="UserMap">
 		<result property="id" column="ID"/>
 		<result property="username" column="USERNAME"/>
