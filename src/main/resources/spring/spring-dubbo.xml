@@ -7,7 +7,7 @@
 							http://code.alibabatech.com/schema/dubbo
         					http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 							
-	<dubbo:application name="isuperx-sso-dubbo-server" />
+	<dubbo:application name="isuperx-sso" />
 	
 	<!-- address可以Zookeeper集群配置，地址可以多个以逗号隔开
 		 check注册中心不存在时，是否报错
